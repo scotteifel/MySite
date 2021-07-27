@@ -1,0 +1,14 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "Scott Eifel",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
