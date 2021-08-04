@@ -72,15 +72,49 @@ a:active {
 }
 
 /*////////// Hero //////////*/
+/*/////////////////////////*/
 
 .hero-text-box {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .btn-ghost {
   width: 100px;
   display: block;
-  margin: 10px auto;
+  margin: 30px auto;
+}
+
+/*////////// Blurb //////////*/
+/*/////////////////////////*/
+
+.description {
+  width: 100%;
+  background-color: #ebfbee;
+  margin-top: 40px;
+}
+
+.blurb {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
+.project {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  list-style: none;
+}
+
+.project a {
+  background-color: white;
+}
+
+.project--thumb {
+  display: grid;
+  width: 90px;
 }
