@@ -5,3 +5,5 @@ This file lists improvement ideas for the website.
     section {
         margin: ... ;
     }
+
+2. Make a modal with quotes for the hero.
