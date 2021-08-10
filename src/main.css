@@ -56,9 +56,6 @@ a:hover,
 a:active {
   background-color: #2f9e44;
   background-color: #5ac665;
-  /* background-image: linear-gradient(red, red); */
-  /* transition: background-image 0.5s;
-  background-image: linear-gradient(to top left, #62d475, var(--main_color)); */
   transition: background-color 0.2s;
 }
 
@@ -67,9 +64,9 @@ a:active {
   text-decoration: none;
 }
 
-.btn:hover {
+/* .btn:hover {
   background-color: ;
-}
+} */
 
 /* ////////////////////////////*/
 /*////////// Header //////////*/
@@ -145,12 +142,15 @@ a:active {
 
 .project {
   display: grid;
-  width: 80%;
+  width: 60%;
   margin: 70px auto;
   justify-items: center;
+  justify-content: space-between;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 200px 200px 200px;
   grid-template-rows: 1fr 1fr;
   list-style: none;
+  /* background-color: #51909b; */
 }
 
 .project li {
@@ -180,6 +180,7 @@ a:active {
   margin: 10px;
   text-align: center;
   background-color: #51cfa6;
+  background-color: #8fcf4f;
   border-radius: 3px;
   padding: 4px;
 }
@@ -198,18 +199,6 @@ h4 {
   width: 130px;
 }
 
-@media only screen and (max-width: 600px) {
-  .project {
-    display: grid;
-    width: 100%;
-    margin: 70px auto;
-    justify-items: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    list-style: none;
-  }
-}
-
 /* ////////// Project Component //////////*/
 /*///////////////////////////////////////*/
 
@@ -217,8 +206,8 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #ced4da;
-  padding: 15px;
+  background-color: #aaaeb1;
+  padding: 20px;
   border-radius: 0px 0px 3px 3px;
 }
 
@@ -240,6 +229,10 @@ h4 {
   padding: 0px;
 }
 
+.social-links a:hover {
+  background-color: #aaaeb1;
+}
+
 .github-icon {
   color: #333;
 }
@@ -255,4 +248,35 @@ h4 {
 
 .footer a {
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 775px) {
+  .project {
+    display: grid;
+    width: 100%;
+    margin: 70px auto;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    list-style: none;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .main-nav a {
+    /* font-size: 0.8rem; */
+    margin-right: 5px;
+    border-bottom: transparent;
+    background-image: linear-gradient(#5ac665, #51cfbc);
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .blurb {
+    width: 70%;
+    text-align: center;
+  }
 }
