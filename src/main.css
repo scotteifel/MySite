@@ -24,6 +24,11 @@ GREY COLOR #343a40
   box-sizing: border-box;
 }
 
+body {
+  margin: 20px;
+  border-radius: 2px;
+}
+
 h1 {
   display: block;
   text-align: center;
@@ -122,6 +127,8 @@ a:active {
   width: 100%;
   background-color: #e6e6e6;
   background-color: #e6f8e9;
+  background-image: linear-gradient(to bottom right, #e6f8e9, #e6e6e6);
+  background-image: linear-gradient(#e6f8e9, #a7e7b2);
   margin-top: 40px;
 }
 
@@ -147,7 +154,15 @@ a:active {
 }
 
 .project li {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  margin-bottom: 20px;
+}
+
+.project a {
+  text-decoration: none;
 }
 
 .project img {
@@ -157,14 +172,21 @@ a:active {
 
 .project p {
   text-align: center;
+  width: 140px;
+  line-height: 1.4;
 }
 
 .project h5 {
   margin: 10px;
+  text-align: center;
+  background-color: #51cfa6;
+  border-radius: 3px;
+  padding: 4px;
 }
 
 h4 {
   width: 160px;
+  letter-spacing: 1.2px;
 }
 
 .project a {
@@ -174,4 +196,63 @@ h4 {
 .project--thumb {
   display: grid;
   width: 130px;
+}
+
+@media only screen and (max-width: 600px) {
+  .project {
+    display: grid;
+    width: 100%;
+    margin: 70px auto;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+  }
+}
+
+/* ////////// Project Component //////////*/
+/*///////////////////////////////////////*/
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ced4da;
+  padding: 15px;
+  border-radius: 0px 0px 3px 3px;
+}
+
+.address-col {
+  margin-left: 60px;
+  color: #050e07;
+}
+
+.social-links {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.social-links a {
+  margin-right: 20px;
+  border-bottom: hidden;
+  padding: 0px;
+}
+
+.github-icon {
+  color: #333;
+}
+
+.facebook-icon {
+  color: #1877f2;
+}
+
+.address-col {
+  display: flex;
+  justify-content: left;
+}
+
+.footer a {
+  font-size: 1.5rem;
 }
