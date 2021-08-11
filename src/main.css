@@ -24,6 +24,10 @@ GREY COLOR #343a40
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 20px;
   border-radius: 2px;
@@ -150,7 +154,6 @@ a:active {
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 1fr 1fr;
   list-style: none;
-  /* background-color: #51909b; */
 }
 
 .project li {
@@ -272,11 +275,19 @@ h4 {
   }
 
   .logo {
-    margin-left: 20px;
+    margin: 0px 20px;
+  }
+
+  .hero-text-box {
+    margin: 35px;
   }
 
   .blurb {
     width: 70%;
     text-align: center;
+  }
+
+  .project:last-child {
+    margin-bottom: 30px;
   }
 }
