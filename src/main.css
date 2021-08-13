@@ -91,7 +91,7 @@ a:active {
   width: 90px;
   height: auto;
   display: flex;
-  margin-left: 50px;
+  margin-left: 26px;
   border-radius: 3px;
 }
 
@@ -112,7 +112,7 @@ a:active {
 .hero-text-box {
   display: block;
   justify-content: center;
-  margin: 110px;
+  margin: 100px 100px 90px 100px;
 }
 
 .btn-ghost {
@@ -127,10 +127,10 @@ a:active {
 .description {
   width: 100%;
   background-color: #e6e6e6;
-  background-color: #e6f8e9;
-  background-image: linear-gradient(to bottom right, #e6f8e9, #e6e6e6);
-  background-image: linear-gradient(#e6f8e9, #a7e7b2);
-  margin-top: 40px;
+  background-color: #f1f3f5;
+  /* background-image: linear-gradient(to bottom right, #e6f8e9, #e6e6e6);
+  background-image: linear-gradient(#e6f8e9, #a7e7b2); */
+  /* margin-top: 40px; */
 }
 
 .blurb {
@@ -141,13 +141,25 @@ a:active {
   font-size: 1.2rem;
 }
 
+#github--link {
+  display: inline-block;
+  color: #0000ee;
+  padding: 0px;
+  text-decoration: none;
+  border-bottom: transparent;
+}
+
+#github--link:hover {
+  background-color: transparent;
+}
+
 /* ////////// Project Component //////////*/
 /*///////////////////////////////////////*/
 
 .project {
   display: grid;
   width: 60%;
-  margin: 70px auto;
+  margin: 80px auto;
   justify-items: center;
   justify-content: space-between;
   grid-template-columns: 1fr 1fr 1fr;
@@ -156,9 +168,24 @@ a:active {
   list-style: none;
 }
 
+.project li:hover {
+  transform: scale(1.5);
+  transition: transform 0.3s;
+}
+
 .project li {
   margin-bottom: 20px;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  padding: 7px;
+  transition: transform 0.3s;
 }
+/* .project li:link,
+.project li:visited {
+  padding: 0px;
+  margin-bottom: 20px;
+  background-color: #2f9e44; 
+} */
 
 .project h3 {
   margin-bottom: 20px;
@@ -166,6 +193,7 @@ a:active {
 
 .project a {
   text-decoration: none;
+  padding: 0px;
 }
 
 .project img {
@@ -183,7 +211,6 @@ a:active {
   margin: 10px;
   text-align: center;
   background-color: #51cfa6;
-  background-color: #8fcf4f;
   border-radius: 3px;
   padding: 4px;
 }
@@ -202,16 +229,15 @@ h4 {
   width: 130px;
 }
 
-/* ////////// Project Component //////////*/
-/*///////////////////////////////////////*/
+/* ////////// Footer /////////////////*/
+/*///////////////////////////////////*/
 
 .footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #aaaeb1;
   padding: 20px;
-  border-radius: 0px 0px 3px 3px;
 }
 
 .address-col {
@@ -253,6 +279,9 @@ h4 {
   font-size: 1.5rem;
 }
 
+/* ////////// Breakpoints //////////////*/
+/*/////////////////////////////////////*/
+
 @media only screen and (max-width: 775px) {
   .project {
     display: grid;
@@ -263,6 +292,10 @@ h4 {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto auto auto auto auto;
     list-style: none;
+  }
+
+  .project {
+    margin-bottom: 15px;
   }
 }
 
@@ -287,7 +320,4 @@ h4 {
     text-align: center;
   }
 
-  .project:last-child {
-    margin-bottom: 30px;
-  }
-}
+
