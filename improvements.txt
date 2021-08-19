@@ -7,3 +7,5 @@ This file lists improvement ideas for the website.
     }
 
 2. Make a modal with quotes for the hero.
+
+3. Add address bar icon

@@ -17,8 +17,11 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap"
       rel="stylesheet"
     />
-    <title>ProperProgrammerPortfolioPage</title>
+    <script defer src="src/js/script.js"></script>
+
+    <title>A Portfolio Page</title>
   </head>
+
   <body>
     <header>
       <div class="header-container">
@@ -32,22 +35,40 @@
           <li><a href="#projects-list">Projects</a></li>
           <li><a href="#contact">Get in touch</a></li>
         </ul>
+
+        <!-- hamburger mobile menu -->
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">
+            <ion-icon
+            name="menu-outline"
+            class="hamburger-menu large"
+            >
+          </button>
+            <!-- <button class="dropbtn" onclick="myFunction()">Dropdown</button> -->
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#blurb">About me</a>
+              <a href="#projects-list">Projects</a>
+              <a href="#contact">Get in touch</a>
+            </div>
+          </ion-icon>
+        </div>
       </div>
+
       <div class="hero-text-box">
         <h1>"The desire accomplished is sweet to the soul..."</h1>
         <h3>-Proverbs 13:19a</h3>
       </div>
-      <!-- <a class="btn btn-ghost" href="#">Show me more</a> -->
     </header>
+
     <main>
       <section class="description">
         <div class="blurb" id="blurb">
           <p>
-            "Hi! I'm Scott and welcome to my portfolio site. I built this from
-            scratch and am excited to have done so. I've learned how to program
-            in Python, HTML, CSS, and Javascript. I plan to continue to
-            improving my skills, as I'm looking to begin working as a developer.
-            Below are some projects I've done, most linking to my
+            "Hi! I'm Scott and welcome. This is my portfolio site which I built
+            from scratch. I've learned how to program in Python, HTML, CSS, and
+            Javascript. I plan to continue improving my skills, as I'm looking
+            to start working as a developer. Below are some projects I've done,
+            most linking to my
             <a
               href="https://github.com/scotteifel"
               id="github--link"
@@ -146,7 +167,7 @@
               />
               <p>
                 This is a time management program. Add a task with an estimated
-                time of completion. Can use an update.
+                time of completion.
               </p>
               <h5>Python.</h5>
               <!-- <a href="src/programs/tasktrack.zip" target="blank">Download</a> -->
@@ -200,16 +221,6 @@
           ></a>
         </li>
       </ul>
-
-      <!-- <nav class="nav-col">
-          <p class="footer-heading">Account</p>
-          <ul class="footer-nav">
-            <li><a class="footer-link" href="#">Create account</a></li>
-            <li><a class="footer-link" href="#">Sign in</a></li>
-            <li><a class="footer-link" href="#">iOS app</a></li>
-            <li><a class="footer-link" href="#">Android app</a></li>
-          </ul>
-        </nav> -->
     </footer>
     <script
       type="module"
