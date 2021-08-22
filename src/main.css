@@ -176,14 +176,14 @@ a:active {
   width: 54%;
   margin: 90px auto;
   justify-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   grid-template-columns: 200px 200px 200px;
   grid-template-rows: 1fr 1fr;
   list-style: none;
 }
 
 .project li {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   background-color: #f1f3f5;
   border-radius: 10px;
   padding: 7px;
