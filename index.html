@@ -23,66 +23,50 @@
   </head>
 
   <body>
-    <header>
-      <div class="header-container">
-        <img
-          src="src/img/happy-smile.jpg"
-          alt="Photo by Sam Albury on Unsplash"
-          class="logo"
-        />
-        <ul class="main-nav">
+    <header class="header">
+      <img src="src/img/happy-smile.jpg" class="logo" />
+
+      <nav class="main-nav">
+        <ul class="nav-list">
           <li><a href="#blurb">About me</a></li>
           <li><a href="#projects-list">Projects</a></li>
           <li><a href="#contact">Get in touch</a></li>
         </ul>
+      </nav>
 
-        <!-- hamburger mobile menu -->
-        <div class="dropdown">
-          <button class="dropbtn" onclick="myFunction()">
-            <ion-icon
-            name="menu-outline"
-            class="hamburger-menu large"
-            >
-          </button>
-            <!-- <button class="dropbtn" onclick="myFunction()">Dropdown</button> -->
-            <div id="myDropdown" class="dropdown-content">
-              <a href="#blurb">About me</a>
-              <a href="#projects-list">Projects</a>
-              <a href="#contact">Get in touch</a>
-            </div>
-          </ion-icon>
-        </div>
-      </div>
-
-      <div class="hero-text-box">
-        <h1>"The desire accomplished is sweet to the soul..."</h1>
-        <h3>-Proverbs 13:19a</h3>
-      </div>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"> </ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"> </ion-icon>
+      </button>
     </header>
+
+    <div class="hero-text-box">
+      <h1>"The desire accomplished is sweet to the soul..."</h1>
+      <h3>-Proverbs 13:19a</h3>
+    </div>
 
     <main>
       <section class="description">
         <div class="blurb" id="blurb">
           <p>
-            "Hi! I'm Scott and welcome. This is my portfolio site which I built
-            from scratch. I've learned how to program in Python, HTML, CSS, and
-            Javascript. I plan to continue improving my skills, as I'm looking
-            to start working as a developer. Below are some projects I've done,
-            most linking to my
+            "Hi! I'm Scott and welcome to my portfolio site I built. I've
+            learned how to program in Python, HTML, CSS, and Javascript. I plan
+            to continue improving my skills, as I'm looking to start working as
+            a developer. Below are some projects I've done, most linking to my
             <a
               href="https://github.com/scotteifel"
               id="github--link"
               target="blank"
               >github page</a
-            >, check them out!
+            >. Check them out!
           </p>
         </div>
       </section>
 
       <section>
         <ul class="project" id="projects-list">
-          <a href="https://github.com/scotteifel/MaptyUdemyjs" target="blank">
-            <li>
+          <li>
+            <a href="https://github.com/scotteifel/MaptyUdemyjs" target="blank">
               <h3>Exercise webapp</h3>
               <img
                 src="src/img/bryan-trogdon-MWXKz_o1Ls0-unsplash.jpg"
@@ -97,8 +81,8 @@
                 HTML, CSS,<br />
                 and Javascript.
               </h5>
-            </li>
-          </a>
+            </a>
+          </li>
 
           <a href="https://forkify-scott.netlify.app/" target="blank">
             <li>
@@ -192,6 +176,7 @@
 
     <footer class="footer" id="contact">
       <div class="address-col">
+        <p class="contact-request">Reach me at:</p>
         <p class="address">scotte@reagan.com</p>
       </div>
 
