@@ -1,11 +1,8 @@
 This file lists improvement ideas for the website.
 
-1. Make a dedicated css portion with specific section styles?
-    ex. /// Section ///
-    section {
-        margin: ... ;
-    }
 
-2. Make a modal with quotes for the hero.
+- Make a modal with quotes for the hero.
 
-3. Add address bar icon
+- Add address bar icon
+
+- Improve button hover color.

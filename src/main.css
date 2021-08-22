@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  margin: 20px;
+  margin: 15px;
   border-radius: 2px;
 }
 
@@ -141,8 +141,9 @@ a:active {
 /*  ///////////////////////  */
 
 .description {
-  width: 100%;
+  width: 70%;
   background-color: #eef6fa;
+  margin: 0 auto;
 }
 
 .blurb {
