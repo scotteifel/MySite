@@ -96,7 +96,7 @@ a:active {
 
 .main-nav a {
   font-size: 17px;
-  margin-right: 30px;
+  margin-right: 40px;
   text-decoration: none;
 }
 
@@ -314,6 +314,10 @@ h4 {
     margin: 0;
   }
 
+  .main-nav a {
+    margin-right: 30px;
+  }
+
   .blurb {
     width: 50%;
     font-size: 1.1rem;
@@ -325,7 +329,6 @@ h4 {
     margin: 70px auto;
     justify-items: center;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
     grid-template-rows: repeat(6, auto);
     list-style: none;
     margin-bottom: 15px;
@@ -398,10 +401,10 @@ h4 {
     visibility: visible;
   }
 
+  /* For when clicking on open/close icon in mobile menu */
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
-
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
