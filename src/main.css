@@ -47,14 +47,13 @@ a:visited {
   border-bottom: 1px solid white;
   color: #050e07;
   padding: 5px 10px;
-  border-radius: 4px;
 }
 
 a:hover,
 a:active {
-  background-color: #2f9e44;
-  background-color: #5ac665;
+  /* background-color: #74e6ac; */
   transition: background-color 0.2s;
+  border-radius: 3px;
 }
 
 /*   ///////  Buttons  ///////   */
@@ -79,7 +78,7 @@ a:active {
 }
 
 .logo {
-  width: 90px;
+  width: 95px;
   height: auto;
   display: flex;
   margin-left: 26px;
@@ -99,6 +98,10 @@ a:active {
   font-size: 17px;
   margin-right: 30px;
   text-decoration: none;
+}
+
+.main-nav a:hover {
+  background-color: #b1f3ea;
 }
 
 /*  /// Mobile navigation ///  */
@@ -165,7 +168,8 @@ a:active {
 }
 
 #github--link:hover {
-  background-color: transparent;
+  color: #ffca38;
+  transition: background-color 0.2s;
 }
 
 /*  ////////////////////////////////////  */
@@ -310,6 +314,11 @@ h4 {
     margin: 0;
   }
 
+  .blurb {
+    width: 50%;
+    font-size: 1.1rem;
+  }
+
   .project {
     display: grid;
     width: 100%;
@@ -377,6 +386,10 @@ h4 {
 
   .hero-text-box {
     margin: 50px;
+  }
+
+  .description {
+    margin: 15 auto;
   }
 
   .nav-open .nav-list {
