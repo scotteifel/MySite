@@ -3,4 +3,4 @@ This file lists improvement ideas for the website.
 
 - Make a modal with quotes for the hero.
 
-- Add address bar icon
+- zoom to icons on hover
