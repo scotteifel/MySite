@@ -11,6 +11,7 @@ GREY COLOR #343a40
 
 * {
   font-family: "STIX Two Text", serif;
+  font-size: 1.2rem;
   color: var(--grey_color);
   margin: 0;
   padding: 0;
@@ -44,7 +45,6 @@ h3 {
 
 a:link,
 a:visited {
-  border-bottom: 1px solid white;
   color: #050e07;
   padding: 5px 10px;
 }
@@ -74,7 +74,7 @@ a:active {
   justify-content: space-between;
   list-style: none;
   background-color: var(--header_background);
-  background-image: linear-gradient(to bottom right, #51a0cf, #51cfbc);
+  background-image: linear-gradient(to bottom, #ffffff, #51cfbc);
 }
 
 .logo {
@@ -95,9 +95,10 @@ a:active {
 }
 
 .main-nav a {
-  font-size: 17px;
+  font-size: 1.3rem;
   margin-right: 40px;
   text-decoration: none;
+  /* border-bottom: 1px solid #cbf1eb; */
 }
 
 .main-nav a:hover {
@@ -144,19 +145,23 @@ a:active {
 /*  ///////////////////////  */
 
 .description {
-  width: 70%;
-  background-color: #eef6fa;
+  /* width: 70%; */
+  background-color: #f1f3f5;
   margin: 0 auto;
 }
 
 .blurb {
   display: block;
-  font-size: 1.2rem;
-  width: 35%;
+  font-size: 1.3rem;
+  width: 40%;
   max-width: 580px;
   margin: 0 auto;
   padding: 15px 0;
   line-height: 1.6;
+}
+
+.blurb p {
+  font-size: 1.3rem;
 }
 
 #github--link {
@@ -189,7 +194,7 @@ a:active {
 
 .project li {
   margin-bottom: 40px;
-  background-color: #f1f3f5;
+  background-color: #f8f9fa;
   border-radius: 10px;
   padding: 7px;
   transition: transform 0.3s;
@@ -254,8 +259,9 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #aaaeb1;
+  background-color: #f1f3f5;
   padding: 20px;
+  margin: 0px;
 }
 
 .address-col {
@@ -316,6 +322,8 @@ h4 {
 
   .main-nav a {
     margin-right: 30px;
+    font-size: 1.1rem;
+
   }
 
   .blurb {

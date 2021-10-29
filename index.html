@@ -1,217 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap"
-      rel="stylesheet"
-    />
-    <script defer src="src/js/script.js"></script>
 
-    <title>A Portfolio Page</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet" />
+  <script defer src="src/js/script.js"></script>
 
-  <body>
-    <header class="header">
-      <img src="src/img/happy-smile.jpg" class="logo" />
+  <title>A Portfolio Page</title>
+</head>
 
-      <nav class="main-nav">
-        <ul class="nav-list">
-          <li><a href="#blurb">About me</a></li>
-          <li><a href="#projects-list">Projects</a></li>
-          <li><a href="#contact">Get in touch</a></li>
-        </ul>
-      </nav>
+<body>
+  <header class="header">
+    <img src="src/img/site_pic.png" class="logo" />
 
-      <button class="btn-mobile-nav">
-        <ion-icon class="icon-mobile-nav" name="menu-outline"> </ion-icon>
-        <ion-icon class="icon-mobile-nav" name="close-outline"> </ion-icon>
-      </button>
-    </header>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="#blurb">About me</a></li>
+        <li><a href="#projects-list">Projects</a></li>
+        <li><a href="#contact">Get in touch</a></li>
+      </ul>
+    </nav>
 
-    <div class="hero-text-box">
-      <h1>"The desire accomplished is sweet to the soul..."</h1>
-      <h3>-Proverbs 13:19a</h3>
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"> </ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"> </ion-icon>
+    </button>
+  </header>
+
+  <div class="hero-text-box">
+    <h1>"The desire accomplished is sweet to the soul..."</h1>
+    <h3>-Proverbs 13:19a</h3>
+  </div>
+
+  <main>
+    <section class="description">
+      <div class="blurb" id="blurb">
+        <p>
+          Hi and welcome to my portfolio site. My name is Scott and I'm a self-taught developer looking for my first
+          job. Learning how to program in Python, HTML, CSS, and
+          Javascript has been both challenging and rewarding and, having finished writing this site myself, it is
+          certainly sweet to be at this place. It's
+          been a challenging and very rewarding journey writing software, and I'm very excited to continue
+          improving my skills. <br>
+          Below are some projects I've done. There are both live sites and links to projects on my
+          <a href="https://github.com/scotteifel" id="github--link" target="blank">github page</a>. Feel free to check
+          them out and contact me with any questions.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <ul class="project" id="projects-list">
+        <li>
+          <a href="https://maptyudemyproject.netlify.app/" target="blank">
+            <h3>Exercise webapp</h3>
+            <img src="src/img/bryan-trogdon-MWXKz_o1Ls0-unsplash.jpg" alt="Photo by Julentto Photography on Unsplash"
+              class="project--thumb" />
+            <p>
+              Done through a Udemy course. This webapp allows a user to record
+              their workouts on a map.
+            </p>
+            <h5>
+              HTML, CSS,<br />
+              and Javascript.
+            </h5>
+          </a>
+        </li>
+
+        <a href="https://forkify-scott.netlify.app/" target="blank">
+          <li>
+            <h3>Forkify webapp</h3>
+            <img src="src/img/hannah-busing-0BhSKStVtdM-unsplash.jpg" alt="Photo by Hannah Busing on Unsplash"
+              class="project--thumb" />
+            <p>
+              An app for finding food recipes. Done through following a Udemy
+              course.
+            </p>
+            <h5>
+              HTML, CSS,<br />
+              and Javascript.
+            </h5>
+          </li>
+        </a>
+
+        <a href="https://omnifoodudemyapp.netlify.app/" target="blank">
+          <li>
+            <h3>Omnifood webapp</h3>
+            <img src="src/img/OminfoodLogo.png" alt="Omnifood project logo.  Jonas Schmedtmann"
+              class="project--thumb" />
+            <p>
+              A mock food delivery service app. Done by following along with a
+              Udemy course.
+            </p>
+            <h5>
+              HTML, CSS,<br />
+              and Javascript.
+            </h5>
+          </li>
+        </a>
+        <a href="https://github.com/scotteifel/ChessPuzzle " target="blank">
+          <li>
+            <h3>Chess Puzzle</h3>
+            <img src="src/img/josue-soto-C2WLgD4ELXg-unsplash.jpg" alt="Photo by Josué Soto on Unsplash"
+              class="project--thumb" />
+            <p>
+              This program uses a backtracking algorithm to place 8 queens on
+              a chessboard. They are not allowed to attack one another.
+            </p>
+            <h5>Python.</h5>
+            <!-- <a href="tasktrack.zip" target="blank">Download</a> -->
+          </li>
+        </a>
+
+        <a href="https://github.com/scotteifel/tasktrack" target="blank">
+          <li>
+            <h3>TaskTrack</h3>
+            <img src="src/img/task_track.png" alt="Photo by Glenn Carstens-Peters on Unsplash" class="project--thumb" />
+            <p>
+              This is a time management program. Add a task with an estimated
+              time of completion. Results can be saved.
+            </p>
+            <h5>Python.</h5>
+            <!-- <a href="src/programs/tasktrack.zip" target="blank">Download</a> -->
+          </li>
+        </a>
+
+        <a href="https://github.com/scotteifel/TetrisTutorial" target="blank">
+          <li>
+            <h3>Tetris</h3>
+            <img src="src/img/building-blocks-2026721_640.png" alt="Image by OpenClipart-Vectors from Pixabay"
+              class="project--thumb" />
+            <p>Tetris. Done by coding along with a short course.</p>
+            <h5>Python.</h5>
+          </li>
+        </a>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="address-col">
+      <p class="contact-request">Email me:</p>
+      <p class="address">scotte@reagan.com</p>
     </div>
 
-    <main>
-      <section class="description">
-        <div class="blurb" id="blurb">
-          <p>
-            "Hi! I'm Scott and welcome to my portfolio site which I built. It's
-            been enjoyable learning how to program in Python, HTML, CSS, and
-            Javascript. I plan to continue improving my skills and to start
-            working as a developer. Below are some projects I've done, most
-            linking to my
-            <a
-              href="https://github.com/scotteifel"
-              id="github--link"
-              target="blank"
-              >github page</a
-            >. Check them out!
-          </p>
+    <ul class="social-links">
+      <li>
+        <div>
+          <a class="footer-link" href="https://github.com/scotteifel" target="blank">
+            <ion-icon class="social-icon github-icon" name="logo-github"></ion-icon>
+          </a>
         </div>
-      </section>
+      </li>
+      <li>
+        <a class="footer-link" href="https://www.facebook.com/scott.eifel" target="blank">
+          <ion-icon class="social-icon facebook-icon" name="logo-facebook"></ion-icon>
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
 
-      <section>
-        <ul class="project" id="projects-list">
-          <li>
-            <a href="https://maptyudemyproject.netlify.app/" target="blank">
-              <h3>Exercise webapp</h3>
-              <img
-                src="src/img/bryan-trogdon-MWXKz_o1Ls0-unsplash.jpg"
-                alt="Photo by Julentto Photography on Unsplash"
-                class="project--thumb"
-              />
-              <p>
-                Done through a Udemy course. This webapp allows a user to record
-                their workouts on a map.
-              </p>
-              <h5>
-                HTML, CSS,<br />
-                and Javascript.
-              </h5>
-            </a>
-          </li>
-
-          <a href="https://forkify-scott.netlify.app/" target="blank">
-            <li>
-              <h3>Forkify webapp</h3>
-              <img
-                src="src/img/hannah-busing-0BhSKStVtdM-unsplash.jpg"
-                alt="Photo by Hannah Busing on Unsplash"
-                class="project--thumb"
-              />
-              <p>
-                An app for finding food recipes. Done through following a Udemy
-                course.
-              </p>
-              <h5>
-                HTML, CSS,<br />
-                and Javascript.
-              </h5>
-            </li>
-          </a>
-
-          <a href="https://omnifoodudemyapp.netlify.app/" target="blank">
-            <li>
-              <h3>Omnifood webapp</h3>
-              <img
-                src="src/img/OminfoodLogo.png"
-                alt="Omnifood project logo.  Jonas Schmedtmann"
-                class="project--thumb"
-              />
-              <p>
-                A mock food delivery service app. Done by following along with a
-                Udemy course.
-              </p>
-              <h5>
-                HTML, CSS,<br />
-                and Javascript.
-              </h5>
-            </li>
-          </a>
-          <a href="https://github.com/scotteifel/ChessPuzzle " target="blank">
-            <li>
-              <h3>Chess Puzzle</h3>
-              <img
-                src="src/img/josue-soto-C2WLgD4ELXg-unsplash.jpg"
-                alt="Photo by Josué Soto on Unsplash"
-                class="project--thumb"
-              />
-              <p>
-                This program uses a backtracking algorithm to place 8 queens on
-                a chessboard. They are not allowed to attack one another.
-              </p>
-              <h5>Python.</h5>
-              <!-- <a href="tasktrack.zip" target="blank">Download</a> -->
-            </li>
-          </a>
-
-          <a href="https://github.com/scotteifel/tasktrack" target="blank">
-            <li>
-              <h3>TaskTrack</h3>
-              <img
-                src="src/img/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg"
-                alt="Photo by Glenn Carstens-Peters on Unsplash"
-                class="project--thumb"
-              />
-              <p>
-                This is a time management program. Add a task with an estimated
-                time of completion. Results can be saved.
-              </p>
-              <h5>Python.</h5>
-              <!-- <a href="src/programs/tasktrack.zip" target="blank">Download</a> -->
-            </li>
-          </a>
-
-          <a href="https://github.com/scotteifel/TetrisTutorial" target="blank">
-            <li>
-              <h3>Tetris</h3>
-              <img
-                src="src/img/building-blocks-2026721_640.png"
-                alt="Image by OpenClipart-Vectors from Pixabay"
-                class="project--thumb"
-              />
-              <p>Tetris. Done by coding along with a short course.</p>
-              <h5>Python.</h5>
-            </li>
-          </a>
-        </ul>
-      </section>
-    </main>
-
-    <footer class="footer" id="contact">
-      <div class="address-col">
-        <p class="contact-request">Email me:</p>
-        <p class="address">scotte@reagan.com</p>
-      </div>
-
-      <ul class="social-links">
-        <li>
-          <div>
-            <a
-              class="footer-link"
-              href="https://github.com/scotteifel"
-              target="blank"
-              ><ion-icon
-                class="social-icon github-icon"
-                name="logo-github"
-              ></ion-icon
-            ></a>
-          </div>
-        </li>
-        <li>
-          <a
-            class="footer-link"
-            href="https://www.facebook.com/scott.eifel"
-            target="blank"
-            ><ion-icon
-              class="social-icon facebook-icon"
-              name="logo-facebook"
-            ></ion-icon
-          ></a>
-        </li>
-      </ul>
-    </footer>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
 </html>
