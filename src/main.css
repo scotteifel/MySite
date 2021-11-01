@@ -337,9 +337,14 @@ h4 {
     font-size: 0.9rem;
     
   }
-  
+
+  .description {
+    width: 80%;
+    margin: 15 auto;
+  }
+
   .blurb {
-    width: 60%;
+    width: 70%;
     font-size: 0.9rem;
   }
 
@@ -369,6 +374,7 @@ h4 {
 }
 
 @media only screen and (max-width: 560px) {
+
   .hero-text-box h3 {
     margin-top: 10px;
   }
@@ -415,7 +421,13 @@ h4 {
     margin: 50px;
   }
 
+  .blurb {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
   .description {
+    width: 90%;
     margin: 15 auto;
   }
 
@@ -426,12 +438,8 @@ h4 {
   }
 
   /* For when clicking on open/close icon in mobile menu */
-  .nav-open .icon-mobile-nav[name="close-outline"] {
-    display: block;
-  }
-  .nav-open .icon-mobile-nav[name="menu-outline"] {
-    display: none;
-  }
+  .nav-open .icon-mobile-nav[name="close-outline"] { display: block; }
+  .nav-open .icon-mobile-nav[name="menu-outline"] { display: none; }
 
   .main-nav a {
     border-bottom: none;
@@ -448,4 +456,5 @@ h4 {
   .address-col {
     margin-right: 25px;
   }
+
 }
