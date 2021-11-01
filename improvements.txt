@@ -1,6 +1,8 @@
 This file lists improvement ideas for the website.
 
 
-- Make a modal with quotes for the hero.
+Potential Features:
 
-- zoom to icons on hover
+    - Make a modal with quotes for the hero.
+
+    - Add a learning roadmap under current projects.
