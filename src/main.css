@@ -252,6 +252,7 @@ a:active {
   margin: 3px;
   text-align: center;
   background-image: linear-gradient( #b9ece4,#85ddd0);
+  background-image: linear-gradient( #cbf1eb,#85ddd0);
   /* background-color: #97e2d7; */
   border-radius: 3px;
   font-size: .9rem;
