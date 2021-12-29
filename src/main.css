@@ -158,7 +158,7 @@ a:active {
 
 .description {
   width: 50%;
-  background-color: #f1f3f5;
+  background-color: #eefaf8;
   margin: 0 auto;
 }
 
@@ -251,8 +251,8 @@ a:active {
 .project h5 {
   margin: 3px;
   text-align: center;
-  background-color: var(--header_background);
-  background-image: linear-gradient(#93b6ff, #51a0cf);
+  background-image: linear-gradient( #b9ece4,#85ddd0);
+  /* background-color: #97e2d7; */
   border-radius: 3px;
   font-size: .9rem;
   padding: 4px;
