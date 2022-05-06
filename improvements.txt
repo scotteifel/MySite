@@ -6,3 +6,5 @@ Potential Features:
     - Make a modal with quotes for the hero.
 
     - Add a learning roadmap under current projects.
+
+    - Improove forkify mobile rendering
