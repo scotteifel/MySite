@@ -7,4 +7,4 @@ Potential Features:
 
     - Add a learning roadmap under current projects.
 
-    - Improove forkify mobile rendering
+    - Improve mapty mobile rendering
