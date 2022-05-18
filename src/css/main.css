@@ -79,7 +79,8 @@ a:active {
   justify-content: space-between;
   list-style: none;
   background-color: var(--header_background);
-  background-image: linear-gradient(to bottom, #ffffff, #51cfbc);
+  background-image: linear-gradient(to bottom, #eefaf8, #51cfbc);
+  border-radius: 1px;
 }
 
 .logo {
