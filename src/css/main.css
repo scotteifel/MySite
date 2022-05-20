@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  margin: 15px;
+  /* margin: 1px; */
   border-radius: 2px;
 }
 
@@ -79,7 +79,8 @@ a:active {
   justify-content: space-between;
   list-style: none;
   background-color: var(--header_background);
-  background-image: linear-gradient(to bottom, #ffffff, #51cfbc);
+  background-image: linear-gradient(to bottom, #eefaf8, #51cfbc);
+  border-radius: 1px;
 }
 
 .logo {
@@ -208,17 +209,17 @@ a:active {
 
 .project li {
   margin-bottom: 40px;
-  background-color: #f8f9fa;
+  background-color: #f1f3f5;
   border-radius: 10px;
-  padding: 7px;
+  padding: 12px;
   transition: transform 0.3s;
-  box-shadow: 1px 1px 10px grey;
+  box-shadow: 1px 1px grey;
 }
 
-.project li:hover {
+/* .project li:hover {
   transform: scale(1.2);
   transition: transform 0.15s;
-}
+} */
 
 .project h3 {
   margin-bottom: 20px;
@@ -271,10 +272,6 @@ h4 {
 .reduce-font-size {
   font-size: .9rem;
 }
-
-/* #scripture-roots--logo {
-  width: 125px;
-} */
 
 /*  //////////////////////////////  */
 
