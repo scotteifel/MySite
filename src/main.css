@@ -272,9 +272,9 @@ h4 {
   font-size: .9rem;
 }
 
-#scripture-roots--logo {
-  /* width: 125px; */
-}
+/* #scripture-roots--logo {
+  width: 125px;
+} */
 
 /*  //////////////////////////////  */
 
@@ -346,8 +346,9 @@ h4 {
 
 @media only screen and (max-width: 1320px) {
 
-.blurb {
-  width: 70%;
+  .blurb {
+    width: 70%;
+  }
 }
 
 @media only screen and (max-width: 775px) {
@@ -480,3 +481,4 @@ h4 {
     margin-right: 25px;
   }
 }
+
