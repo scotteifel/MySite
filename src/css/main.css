@@ -252,11 +252,17 @@ a:active {
 .project h5 {
   margin: 3px;
   text-align: center;
-  background-image: linear-gradient( #cbf1eb,#85ddd0);
+  /* background-image: linear-gradient( #cbf1eb,#85ddd0); */
   /* background-color: #97e2d7; */
   border-radius: 3px;
   font-size: .9rem;
   padding: 4px;
+}
+
+.language-container {
+  display: block;
+  margin: 0 0 auto 0;
+  text-align: left;
 }
 
 h4 {
