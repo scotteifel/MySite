@@ -331,6 +331,11 @@ h4 {
   color: #1877f2;
 }
 
+.linkedin-icon{
+  /* color: #0077B5 */
+  color: blue
+}
+
 .address-col {
   display: flex;
   justify-content: left;
