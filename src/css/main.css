@@ -79,7 +79,8 @@ a:active {
   justify-content: space-between;
   list-style: none;
   background-color: var(--header_background);
-  background-image: linear-gradient(to bottom, #eefaf8, #51cfbc);
+  /* background-image: linear-gradient(to bottom, #eefaf8, #51cfbc); */
+  background-image: linear-gradient(to bottom, #eefaf8, #a8e7de);
   border-radius: 1px;
 }
 
@@ -158,9 +159,12 @@ a:active {
 /*  ///////////////////////  */
 
 .description {
-  width: 50%;
+  width: 65%;
   background-color: #eefaf8;
+  background-color: #dcf5f2;
+  /* border-radius: 15px; */
   margin: 0 auto;
+  padding:15px
 }
 
 .blurb {
@@ -179,10 +183,12 @@ a:active {
 
 #github--link {
   display: inline-block;
-  color: #0000ee;
+  /* color: #0000ee;
+  color: #317c71; */
   padding: 0px;
   text-decoration: none;
   border-bottom: transparent;
+  font-style: italic;
 }
 
 #github--link:hover {
@@ -210,10 +216,9 @@ a:active {
 .project li {
   margin-bottom: 40px;
   background-color: #f1f3f5;
-  border-radius: 10px;
+  border-radius: 7px;
   padding: 12px;
   transition: transform 0.3s;
-  box-shadow: 1px 1px grey;
 }
 
 /* .project li:hover {
