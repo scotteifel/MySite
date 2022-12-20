@@ -164,7 +164,7 @@ a:active {
   background-color: #dcf5f2;
   /* border-radius: 15px; */
   margin: 0 auto;
-  padding:15px
+  /* padding:15px */
 }
 
 .blurb {
@@ -357,10 +357,14 @@ h4 {
 /* //////////////////////////////////  */
 
 
-@media only screen and (max-width: 1320px) {
+@media only screen and (max-width: 1600px) {
 
   .blurb {
-    width: 70%;
+    width: 60%;
+  }
+
+  .description {
+    width: 58%;
   }
 }
 
