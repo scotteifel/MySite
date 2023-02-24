@@ -184,12 +184,10 @@ a:active {
 
 #github--link {
   display: inline-block;
-  /* color: #0000ee;
-  color: #317c71; */
+  color: #0000ee;
   padding: 0px;
   text-decoration: none;
   border-bottom: transparent;
-  font-style: italic;
 }
 
 #github--link:hover {
