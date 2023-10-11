@@ -80,7 +80,7 @@ a:active {
   list-style: none;
   background-color: var(--header_background);
   /* background-image: linear-gradient(to bottom, #eefaf8, #51cfbc); */
-  background-image: linear-gradient(to bottom, #eefaf8, #a8e7de);
+  background-image: linear-gradient(to bottom, #f3fffd, #a8e7de);
   border-radius: 1px;
 }
 
