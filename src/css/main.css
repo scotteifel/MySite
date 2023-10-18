@@ -1,12 +1,8 @@
-/* 
-MAIN COLOR #51cf66
-GREY COLOR #343a40
-*/
+
 
 :root {
   --main_color: #51cf66;
   --grey_color: #124019;
-  --header_background: #51a0cf;
 }
 
 * {
@@ -78,7 +74,6 @@ a:active {
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  background-color: var(--header_background);
   /* background-image: linear-gradient(to bottom, #eefaf8, #51cfbc); */
   background-image: linear-gradient(to bottom, #f3fffd, #15ffdc);
   border-radius: 1px;
@@ -187,6 +182,8 @@ a:active {
   padding: 0px;
   text-decoration: none;
   border-bottom: transparent;
+  font-family: "Georgia", serif;
+  font-size: 1rem;
 }
 
 #github--link:hover {
@@ -427,6 +424,22 @@ h4 {
 }
 
 @media only screen and (max-width: 560px) {
+
+  .footer{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+  }
+
+  .footer-icons{
+    padding-top: 10px;
+    min-width: 100px;
+    grid-template-rows: 1/2;
+  }
+
+  .social-links {
+    grid-template-rows: 2/2;
+  }
 
   .hero-text-box h3 {
     margin-top: 10px;
