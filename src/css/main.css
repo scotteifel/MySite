@@ -166,14 +166,14 @@ a:active {
   width: 60%;
   max-width: 580px;
   margin: 0 auto;
-  padding: 15px 0;
+  padding: 50px;
   line-height: 1.6;
   border-radius: 10px;
 }
 
-.blurb p {
-  font-size:.94em; 
-  padding: 5px 0;
+.blurb h1 {
+  font-family: 'Slabo 27px', serif;
+  font-family: 'Source Code Pro', monospace;  font-size: 1.6rem;
 }
 
 #github--link {
@@ -183,7 +183,6 @@ a:active {
   text-decoration: none;
   border-bottom: transparent;
   font-family: "Georgia", serif;
-  /* font-size: 1rem; */
 }
 
 #github--link:hover {
