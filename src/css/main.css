@@ -166,7 +166,7 @@ a:active {
   width: 60%;
   max-width: 580px;
   margin: 0 auto;
-  padding: 50px;
+  /* padding: 50px; */
   line-height: 1.6;
   border-radius: 10px;
 }
@@ -209,13 +209,9 @@ a:active {
 
 .project li {
   margin-bottom: 40px;
-  background-color: #e7f5ff; 
-  border-radius: 5px;
-  padding: 12px;
+  padding: 15px;
   transition: transform 0.3s;
-  border: solid 1px black;
-  border-top: none;
-  border-left: none;
+  border-bottom: #050e07 1px solid;
   width: 230px;
 }
 
