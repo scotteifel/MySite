@@ -7,7 +7,7 @@
 
 * {
   font-family: "Georgia", serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--grey_color);
   margin: 0;
   padding: 0;
@@ -29,7 +29,8 @@ body {
 h1 {
   display: block;
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: "Emoji", serif;
+  font-size: 1.3rem;
 }
 
 h3 {
@@ -75,7 +76,8 @@ a:active {
   justify-content: space-between;
   list-style: none;
   /* background-image: linear-gradient(to bottom, #eefaf8, #51cfbc); */
-  background-image: linear-gradient(to bottom, #f3fffd, #15ffdc);
+  /* background-image: linear-gradient(to bottom, #f3fffd, #15ffdc); */
+  background-image: linear-gradient(to bottom, #d0ebff,   #4dabf7);
   border-radius: 1px;
 }
 
@@ -157,7 +159,6 @@ a:active {
 
 .description {
   width: 65%;
-
   margin: 0 auto;
 }
 
@@ -171,10 +172,10 @@ a:active {
   border-radius: 10px;
 }
 
-.blurb h1 {
+/* .blurb h1 {
   font-family: 'Slabo 27px', serif;
   font-family: 'Source Code Pro', monospace;  font-size: 1.6rem;
-}
+} */
 
 #top-GitHub-Icon {
 
