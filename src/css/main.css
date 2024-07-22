@@ -176,6 +176,11 @@ a:active {
   font-family: 'Source Code Pro', monospace;  font-size: 1.6rem;
 }
 
+#top-GitHub-Icon {
+
+  padding-top: 30px;
+}
+
 #github--link {
   display: inline-block;
   color: #0000ee;
