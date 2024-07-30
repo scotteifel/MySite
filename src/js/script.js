@@ -1,14 +1,5 @@
-// Make mobile navigation work
-
-const btnNavEl = document.querySelector(".btn-mobile-nav");
-const headerEl = document.querySelector(".header");
-
-btnNavEl.addEventListener("click", function () {
-  headerEl.classList.toggle("nav-open");
-});
-
-const navEl = document.querySelector(".main-nav");
-
-navEl.addEventListener("click", function (e) {
-  headerEl.classList.toggle("nav-open");
-});
+function copyEmail() {
+  const email = "scotte@reagan.com";
+  navigator.clipboard.writeText(email);
+  alert("Email address copied!");
+}
