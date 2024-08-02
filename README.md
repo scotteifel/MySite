@@ -1,5 +1,3 @@
 # MySite
 
-My portfolio website.
-
-Run using netlify.
+My portfolio website.  Run using netlify.
